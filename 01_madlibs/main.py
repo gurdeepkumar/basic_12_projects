@@ -1,3 +1,8 @@
-print("Hello Garry, we are going to be a coder.")
-print("This is additional text.")
-print("This is third line")
+#user input one adjective and 2 verbs
+adj = input("Insert a ajective: ")
+verb1 = input("Insert a verb: ")
+verb2 = input("Insert a verb: ")
+famous_person = input("Insert a famous person: ")
+
+#print the madlibs
+print(f"Computer Programming is so {adj}! It makes me so excited all the time because I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!")
