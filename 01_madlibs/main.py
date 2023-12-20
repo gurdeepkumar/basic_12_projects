@@ -1,4 +1,4 @@
-#user input one adjective and 2 verbs
+#user input one adjective, 2 verbs and a famous person
 adj = input("Insert a ajective: ")
 verb1 = input("Insert a verb: ")
 verb2 = input("Insert a verb: ")
