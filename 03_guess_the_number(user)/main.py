@@ -11,7 +11,10 @@ def computer_guess(x):
 
   while feedback != "c":
     #let computer have a random guess
-    guess = random.randint(low, high)
+    if low != high:  
+      guess = random.randint(low, high)
+    else:
+      guess = low
     print(f"The guess is: {guess}")
 
     #check if the guess is too low, too high or correct
